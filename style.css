@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   margin: 0;
+  color: #1f2933;
+  line-height: 1.6;
 }
 
 header {
-  background: #0b3c5d;
+  background: #0a2540;
   color: white;
-  padding: 20px;
+  padding: 25px;
   text-align: center;
 }
 
@@ -17,36 +20,41 @@ nav a {
 }
 
 .hero {
-  padding: 50px;
+  padding: 70px 20px;
   text-align: center;
-  background: #f4f8fb;
+  background: linear-gradient(135deg, #f4f8fb, #e8f0f6);
 }
 
 .button {
-  background: #0b3c5d;
+  background: #0a2540;
   color: white;
-  padding: 10px 20px;
+  padding: 12px 26px;
+  border-radius: 6px;
   text-decoration: none;
+  font-weight: 600;
 }
+
 .boxes {
   display: flex;
-  gap: 20px;
-  padding: 40px;
+  gap: 25px;
+  padding: 60px 40px;
   background: white;
 }
 
 .boxes div {
-  background: #f4f8fb;
-  padding: 25px;
-  border-radius: 8px;
+  background: #f8fafc;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
 }
 
 
 footer {
-  background: #0b3c5d;
+  background: #0a2540;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  font-size: 14px;
 }
 .logo {
   width: 120px;
