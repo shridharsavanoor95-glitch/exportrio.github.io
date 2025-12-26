@@ -90,3 +90,6 @@ footer {
   border: 2px solid #0a2540;
   color: #0a2540;
 }
+.hero h2 {
+  font-size: 42px;
+}
