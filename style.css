@@ -93,3 +93,13 @@ footer {
 .hero h2 {
   font-size: 42px;
 }
+.content {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+.content h2 {
+  color: #0a2540;
+  margin-top: 30px;
+}
