@@ -52,3 +52,8 @@ footer {
   width: 120px;
   margin-bottom: 10px;
 }
+.trust {
+  text-align: center;
+  padding: 40px;
+  background: #eef4f8;
+}
