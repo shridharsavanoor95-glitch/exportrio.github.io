@@ -28,12 +28,19 @@ nav a {
   padding: 10px 20px;
   text-decoration: none;
 }
-
 .boxes {
   display: flex;
-  justify-content: space-around;
-  padding: 30px;
+  gap: 20px;
+  padding: 40px;
+  background: white;
 }
+
+.boxes div {
+  background: #f4f8fb;
+  padding: 25px;
+  border-radius: 8px;
+}
+
 
 footer {
   background: #0b3c5d;
