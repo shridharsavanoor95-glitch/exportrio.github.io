@@ -270,3 +270,9 @@ section p {
     grid-template-columns: 1fr;
   }
 }
+.product-card small {
+  display: block;
+  margin-top: 6px;
+  color: #777;
+  font-size: 13px;
+}
