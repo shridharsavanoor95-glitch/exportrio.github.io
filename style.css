@@ -168,3 +168,18 @@ footer {
     max-width: 320px;
   }
 }
+.hero {
+  background: url("images/rice-field-hero.jpg") center/cover no-repeat;
+  height: 85vh;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0,0,0,0.45);
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 8%;
+}
