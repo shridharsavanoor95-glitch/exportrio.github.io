@@ -143,3 +143,28 @@ footer {
 .whatsapp-cta:hover {
   background: #1ebe5d;
 }
+
+.rice-item {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.rice-item img {
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+@media (max-width: 768px) {
+  .rice-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .rice-item img {
+    width: 100%;
+    max-width: 320px;
+  }
+}
