@@ -124,4 +124,22 @@ footer {
   list-style: disc;
   margin-left: 20px;
 }
+.button {
+  transition: all 0.25s ease;
+}
 
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+.outline:hover {
+  background: #0a2540;
+  color: white;
+}
+.whatsapp-cta {
+  background: #25D366;
+}
+
+.whatsapp-cta:hover {
+  background: #1ebe5d;
+}
