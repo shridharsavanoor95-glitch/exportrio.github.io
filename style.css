@@ -308,3 +308,9 @@ section p {
   letter-spacing: 1.2px;  /* VERY important for all-caps */
   color: #0a2540;          /* Dark navy / brand color */
 }
+@media (max-width: 600px) {
+  .brand-name {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+}
