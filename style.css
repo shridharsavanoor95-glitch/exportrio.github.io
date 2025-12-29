@@ -335,7 +335,7 @@ section p {
 }
 .site-header {
   background: #0b2a45;
-  padding: 14px 8%;
+  padding: 12px 6%;
 }
 
 .header-inner {
@@ -352,28 +352,27 @@ section p {
 }
 
 .site-logo {
-  height: 36px;
+  height: 34px;
   width: auto;
   display: block;
 }
 
 .brand-name {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
-  letter-spacing: 1.2px;
-  text-transform: uppercase;
+  letter-spacing: 1.4px;
 }
 
 .main-nav a {
   color: #ffffff;
-  margin-left: 24px;
+  margin-left: 22px;
   text-decoration: none;
-  font-weight: 500;
+  font-size: 15px;
 }
 
 .main-nav a:hover {
-  opacity: 0.8;
+  opacity: 0.85;
 }
 @media (max-width: 768px) {
   .main-nav {
@@ -386,5 +385,16 @@ section p {
 
   .brand-name {
     font-size: 18px;
+  }
+}
+.whatsapp-float {
+  position: fixed;
+  right: 16px;
+  bottom: 90px;
+  z-index: 999;
+}
+@media (max-width: 768px) {
+  .whatsapp-float {
+    bottom: 110px;
   }
 }
