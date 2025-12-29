@@ -291,3 +291,7 @@ section p {
     gap: 28px;
   }
 }
+.site-logo {
+  height: 48px;
+  width: auto;
+}
