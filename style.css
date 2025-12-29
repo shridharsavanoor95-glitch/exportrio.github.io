@@ -333,3 +333,58 @@ section p {
 .brand-name {
   line-height: 1;
 }
+.site-header {
+  background: #0b2a45;
+  padding: 14px 8%;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.site-logo {
+  height: 36px;
+  width: auto;
+  display: block;
+}
+
+.brand-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.main-nav a {
+  color: #ffffff;
+  margin-left: 24px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.main-nav a:hover {
+  opacity: 0.8;
+}
+@media (max-width: 768px) {
+  .main-nav {
+    display: none;
+  }
+
+  .site-logo {
+    height: 32px;
+  }
+
+  .brand-name {
+    font-size: 18px;
+  }
+}
