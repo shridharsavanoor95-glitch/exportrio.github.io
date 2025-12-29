@@ -312,5 +312,21 @@ section p {
   .brand-name {
     font-size: 18px;
     letter-spacing: 1px;
+    .site-header {
+  padding: 16px 8%;
+  background: #ffffff;
+}
+
+.brand {
+  display: flex;
+  align-items: center;   /* PERFECT vertical alignment */
+  gap: 10px;             /* Space between logo and text */
+  text-decoration: none;
+}
+
+.site-logo {
+  height: 40px;
+  width: auto;
+}
   }
 }
