@@ -295,3 +295,8 @@ section p {
   height: 48px;
   width: auto;
 }
+@media (max-width: 600px) {
+  .site-logo {
+    height: 40px;
+  }
+}
