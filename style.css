@@ -300,3 +300,11 @@ section p {
     height: 40px;
   }
 }
+.brand-name {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 600;        /* Semi-bold */
+  text-transform: uppercase;
+  letter-spacing: 1.2px;  /* VERY important for all-caps */
+  color: #0a2540;          /* Dark navy / brand color */
+}
