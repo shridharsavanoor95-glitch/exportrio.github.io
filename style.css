@@ -443,3 +443,16 @@ section p {
   max-width: 850px;
   margin: auto;
 }
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 15px;
+  }
+
+  .section h2 {
+    font-size: 26px;
+  }
+
+  .section p {
+    font-size: 16px;
+  }
+}
