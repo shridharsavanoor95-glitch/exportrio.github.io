@@ -411,3 +411,35 @@ section p {
     bottom: 80px;
   }
 }
+.section {
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.dark-section {
+  background: #0b2a45;
+  color: #ffffff;
+}
+
+.light-section {
+  background: #f4f7fb;
+  color: #0b2a45;
+}
+
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section p {
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: center;
+  max-width: 850px;
+  margin: auto;
+}
