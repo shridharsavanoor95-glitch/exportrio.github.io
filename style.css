@@ -1,3 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b2a3f;
+  color: white;
+}
+
+.site-header {
+  background: #0b2a3f;
+  padding: 16px;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  height: 42px;
+  width: auto;
+}
+
+.brand-name {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
 .site-header {
   background: #0b2a45;
   padding: 16px 0;
