@@ -456,3 +456,13 @@ section p {
     font-size: 16px;
   }
 }
+body {
+  background: #0b2a45;
+}
+.section {
+  background: #ffffff;
+  border-radius: 18px;
+  margin: 40px auto;
+  padding: 64px 24px;
+  max-width: 1100px;
+}
