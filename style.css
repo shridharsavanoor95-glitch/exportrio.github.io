@@ -315,3 +315,51 @@ body {
   box-shadow: 0 10px 24px rgba(0,0,0,0.06);
   transition: all 0.25s ease;
 }
+/* Contact Section */
+.contact-box {
+  margin-top: 40px;
+  padding: 36px 28px;
+  border-radius: 16px;
+  border: 1px solid #eef2f7;
+  background: #ffffff;
+}
+
+.contact-label {
+  font-size: 15px;
+  margin-bottom: 14px;
+  color: #4a5a6d;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+
+.contact-list li {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #0b2a44;
+}
+
+.contact-btn {
+  display: inline-block;
+  background: #25d366;
+  color: #ffffff;
+  padding: 16px 34px;
+  border-radius: 40px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.contact-btn:hover {
+  background: #1ebe5d;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .contact-box {
+    padding: 28px 20px;
+  }
+}
