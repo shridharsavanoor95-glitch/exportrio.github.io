@@ -363,3 +363,40 @@ body {
     padding: 28px 20px;
   }
 }
+/* Footer */
+.site-footer {
+  background: #0b2a44;
+  color: #ffffff;
+  padding: 48px 20px 28px;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-name {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.footer-tagline {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-top: 6px;
+}
+
+.footer-info {
+  margin-top: 24px;
+  font-size: 14px;
+  line-height: 1.8;
+  opacity: 0.9;
+}
+
+.footer-copy {
+  margin-top: 28px;
+  font-size: 13px;
+  opacity: 0.7;
+}
