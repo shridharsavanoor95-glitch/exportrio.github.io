@@ -99,7 +99,7 @@ body {
 }
 /* Hero Section */
 .hero {
-  background: url("images/rice-field.jpg") center/cover no-repeat;
+  background: url("images/rice-field-hero.jpg") center/cover no-repeat;
   min-height: 85vh;
   display: flex;
   align-items: center;
