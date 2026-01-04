@@ -431,3 +431,33 @@ body {
     bottom: 88px; /* avoids browser UI & footer */
   }
 }
+/* Markets Section */
+.markets-section {
+  background: #f6f8fb;
+  padding: 24px 20px;
+}
+
+.markets-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  color: #0b2a44;
+}
+
+.markets-label {
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.markets-list {
+  opacity: 0.85;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .markets-container {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
