@@ -195,7 +195,7 @@ body {
 
 .service-card {
   background: #ffffff;
-  border: 1px solid #e6eaf0;
+  border: 1px solid #eef2f7; 
   border-radius: 14px;
   padding: 28px 24px;
   text-align: left;
@@ -232,7 +232,7 @@ body {
 }
 
 .rice-card {
-  border: 1px solid #e6eaf0;
+  border: 1px solid #eef2f7;
   border-radius: 14px;
   padding: 26px 22px;
   background: #ffffff;
@@ -267,4 +267,13 @@ body {
   .rice-grid {
     grid-template-columns: 1fr;
   }
+}
+.service-card:hover,
+.rice-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+  transition: all 0.25s ease;
+}
+.section h2 {
+  letter-spacing: -0.3px;
 }
